@@ -1,0 +1,8 @@
+import random
+def generate_random():
+	first_name = ["Alber" , "Charles" , "Nicolas" , "Micheal" , "Anders" , "Isaac" , "Stephen" , "Marie" , "Richard"]
+	Last_name = ["Einstein" , "Darwin" , "Corpernicus" , "Faraday" , "Celsius" , "Newton" , "Hawking" , "Curie" , "Dawkins"]
+	return "{} {}".format(random.choice(first_name) , random.choice(Last_name))	
+
+for i in range(5):
+	print(generate_random())
